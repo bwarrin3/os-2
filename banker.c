@@ -131,6 +131,7 @@ int main()
             printf(" P%d ->", ans[i]);
         printf(" P%d", ans[numOfProcesses - 1]);
 	}
+    printf("\n");
 	
     // Close the file
     fclose(fptr);
